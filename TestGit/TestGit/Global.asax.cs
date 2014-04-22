@@ -18,11 +18,10 @@ namespace TestGit
         {
             AreaRegistration.RegisterAllAreas();
 
-            WebApiConfig.Register(GlobalConfiguration.Configuration);
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            .RegisterBundles(BundleTable.Bundles);
-            //AuthConfig.RegisterAuth();
+            WebApiConsadfig.Register(GlobalConfiguration.Configuration);
+            a(GlobalFilters.Filters);
+            RouteConfig.RegidsaDSAsterRoutes(RouteTable.Routes);
+            a();
 fdfsd
         }
     }
