@@ -22,6 +22,8 @@ namespace TestGit
             a(GlobalFilters.Filters);
             RouteConfig.RegidsaDSAsterRoutes(RouteTable.Routes);
             a();
+            //RegisterBundles(BundleTable.Bundles);
+            //AuthConfig.RegisterAuth();
 fdfsd
         }
     }
