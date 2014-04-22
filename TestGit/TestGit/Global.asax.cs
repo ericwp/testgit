@@ -20,9 +20,10 @@ namespace TestGit
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles
             AuthConfig.RegisterAuth();
+XXXX
 fdfsd
         }
     }
